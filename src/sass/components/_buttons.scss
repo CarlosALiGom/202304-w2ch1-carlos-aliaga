@@ -1,0 +1,25 @@
+@use "../core/variables" as variables;
+
+.button {
+  font-family: inherit;
+  border: none;
+  color: variables.$background-gray;
+  padding: 10px;
+  width: 125px;
+  border-radius: 25px;
+
+  &__sedan {
+    color: variables.$primary-orange;
+    background-color: variables.$background-gray;
+  }
+
+  &__suvs {
+    color: variables.$primary-cian;
+    background-color: variables.$background-gray;
+  }
+
+  &__luxury {
+    color: variables.$primary-dark-cian;
+    background-color: variables.$background-gray;
+  }
+}
