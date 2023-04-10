@@ -1,0 +1,27 @@
+@use "../core/variables" as variables;
+
+.section-content {
+
+  width: 320px;
+
+  &__card {
+    height: 450px;
+  }
+
+  &__card--tittle {
+    color: variables.$background-gray;
+  }
+
+  &__card--sedan {
+    background-color: variables.$primary-orange;
+  }
+
+  &__card--suvs {
+    background-color: variables.$primary-cian;
+  }
+
+  &__card--luxury {
+    background-color: variables.$primary-dark-cian;
+  }
+}
+
