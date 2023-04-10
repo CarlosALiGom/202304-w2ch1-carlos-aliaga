@@ -1,11 +1,20 @@
 @use "../core/variables" as variables;
 
+.main-container {
+  display: flex;
+  width: 375px;
+}
+
 .section-content {
 
+  display: flex;
+  flex-flow: column wrap;
   width: 320px;
-  gap: 15px;
 
   &__card {
+    display: flex;
+    flex-flow: column;
+    gap: 25px;
     height: 450px;
     padding: 50px;
   }
@@ -21,6 +30,7 @@
 
   &__card--sedan {
     background-color: variables.$primary-orange;
+    border-radius: 20px 20px 0 0;
   }
 
   &__card--suvs {
@@ -29,6 +39,7 @@
 
   &__card--luxury {
     background-color: variables.$primary-dark-cian;
+    border-radius: 0 0 20px 20px;
   }
 }
 
