@@ -21,31 +21,31 @@
     height: 450px;
     padding: 50px;
     width: 300px;
-  }
 
-  &__card--tittle {
-    font-family: typography.$Big-Shoulders-Display-font-family;
-    color: variables.$background-gray;
-    text-transform: uppercase;
-    font-size: 40px;
-  }
+    &--tittle {
+      font-family: typography.$Big-Shoulders-Display-font-family;
+      color: variables.$background-gray;
+      text-transform: uppercase;
+      font-size: 40px;
+    }
 
-  &__card--paragraph {
-    color: variables.$paragraph-white;
-  }
+    &--paragraph {
+      color: variables.$paragraph-white;
+    }
 
-  &__card--sedan {
-    background-color: variables.$primary-orange;
-    border-radius: 20px 20px 0 0;
-  }
+    &--sedan {
+      background-color: variables.$primary-orange;
+      border-radius: 10px 10px 0 0;
+    }
 
-  &__card--suvs {
-    background-color: variables.$primary-cian;
-  }
+    &--suvs {
+      background-color: variables.$primary-cian;
+    }
 
-  &__card--luxury {
-    background-color: variables.$primary-dark-cian;
-    border-radius: 0 0 20px 20px;
+    &--luxury {
+      background-color: variables.$primary-dark-cian;
+      border-radius: 0 0 10px 10px;
+    }
   }
 }
 

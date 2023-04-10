@@ -1,0 +1,30 @@
+@use "../core/variables" as variables;
+
+@media (min-width: 1000px) {
+
+  .main-container {
+    width: 100vw;
+  }
+
+  .section-content {
+
+    display: flex;
+    flex-flow: row wrap;
+  
+    &__card--sedan {
+      background-color: variables.$primary-orange;
+      border-radius: 10px 0 0 10px;
+    }
+
+    &__card--luxury {
+      background-color: variables.$primary-dark-cian;
+      border-radius: 0 10px 10px 0;
+    }
+  }
+
+  .button:hover {
+    color: variables.$background-gray;
+    background-color: transparent;
+    border: 3px solid variables.$background-gray;
+  }
+}
