@@ -6,10 +6,16 @@
 
   &__card {
     height: 450px;
+    padding: 50px;
   }
 
   &__card--tittle {
     color: variables.$background-gray;
+    text-transform: uppercase;
+  }
+
+  &__card--paragraph {
+    color: variables.$paragraph-white;
   }
 
   &__card--sedan {
