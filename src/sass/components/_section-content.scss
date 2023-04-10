@@ -1,4 +1,5 @@
 @use "../core/variables" as variables;
+@use "../core/typography" as typography;
 
 .main-container {
   display: flex;
@@ -20,8 +21,10 @@
   }
 
   &__card--tittle {
+    font-family: typography.$Big-Shoulders-Display-font-family;
     color: variables.$background-gray;
     text-transform: uppercase;
+    font-size: 40px;
   }
 
   &__card--paragraph {
