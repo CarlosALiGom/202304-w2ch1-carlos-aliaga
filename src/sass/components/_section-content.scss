@@ -1,6 +1,12 @@
 @use "../core/variables" as variables;
 @use "../core/typography" as typography;
 
+.main-body {
+  display: flex;
+  width: 100vw;
+  justify-content: center;
+  align-items: center;
+}
 .main-container {
   display: flex;
   width: 375px;
